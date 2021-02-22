@@ -1,0 +1,76 @@
+@charset "ISO-8859-1";
+    html,body{
+        padding: 0;
+        border :0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        height: 100%;
+    }
+    header{
+        display: block;
+        position: fixed;
+        top: 0;
+        left :0; 
+        padding: 10px;
+        background-color: darkmagenta;
+        width: 100%;
+    }
+    #inter{
+        margin-top: 2em;
+    }
+    nav a{
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    nav>ul>li>#alljs{
+        border : 2px gold solid;
+        border-radius: 3px;
+        cursor: progress;
+        background-color: darkviolet;
+        color: white;
+    }
+    nav>ul{
+        display: inline;
+        padding: 0;
+    }
+    nav>ul>li{
+        list-style: none;
+        display: inline-block;
+        margin : 0 5px;
+    }
+    #jsinter{
+        display: inline-block;
+    }
+    .input-group{
+       margin-bottom: 1em;
+    }
+    .input-group input{
+        display: flex;
+        padding: 10px;
+        border : outset 2px blue;
+        border-radius: 4px;
+        width: 100%;
+    }
+    input[type='button']{
+        padding: 5px;
+        border-radius: 4px;
+        color: bisque;
+        font-weight: bold;
+        background-color: brown;
+    }
+    /* For mobile view which as min width upto 768px*/
+    @media only screen and (max-width:768px){
+        aside{
+            text-align: center;
+        }
+        .input-group input{
+            margin-left: 3em;
+            border : solid 2px black;
+        }
+    }
+    /* For laptop view, max width more than 768px */
+    @media only screen and (min-width:768px){
+        aside{
+            width : 500px;
+        }
+    }
