@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+p{
+ margin: 1em 0;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: lightskyblue;
+}
+
+header{
+    display: block;
+    position: fixed;
+    top: 0;
+    left :0; 
+    padding: 10px;
+    background-color: darkmagenta;
+    width: 100%;
+}
+
+nav a:visited,
+nav a:link{
+    color: #fff;
+    text-decoration: none;
+}
+
+nav>ul{
+    display: inline;
+    padding: 0;
+}
+
+nav>ul>li{
+    display: inline-block;
+    list-style: none;
+    margin : 0 5px;
+}
+
+main{
+    display: block;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    min-height: 85%;
+
+}
+
+footer{
+    width: 100%;
+    background-color: darkmagenta;
+    padding: 15px;
+}
+
+aside,article{
+    padding: 2em;
+    
+}
+
+aside{
+    text-align: center;
+  
+}
+article{
+    width: 85%;
+}
+
+.bordered{
+    border: 1px solid black;
+}
+#clickMe{
+    border-radius: 3px;
+    border: 10px ridge lightgray;
+    background-color: darkviolet;
+    color: white;
+    padding: 5px;
+}
+
+#Dragdrop{
+    display: block;
+    width: 200px;
+    margin-top: 1em;
+}
+
+.activity{
+    padding: 10px;
+    margin : 10px;
+    background-color: white;
+    border: 10px outset gray;
+    width: 200px;
+    height: auto;
+}
+
+ .activity .columns{
+    display: flex;
+    background-color: lightgray;
+    width: 100%;
+}
+
+/* .activity .columns .price{
+    text-align: right;
+}  */
+
+.activity>img{
+    width: 100%;
+    height: auto;
+}
+
+.activity .columns .title{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+.activity .columns .price{
+    text-align: right;
+}
+
+.activity .columns>div{
+    width: 50%;
+}
+
+.activity >button{
+    background-color: darkred;
+    color: white;
+    border : 4px ridge gray;
+    border-radius: 3px;
+}
+@media only screen and (min-width: 768px){
+    main{
+        display: flex;
+    }
+
+    aside{
+        margin-left: 2%;
+    }
+
+    .section-block{
+        display: flex;
+    }
+
+   
+}
+
+@media only screen and (max-width : 768px){
+    .activity{
+        margin: 10px auto;
+    }       
+}

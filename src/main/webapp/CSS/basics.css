@@ -1,0 +1,94 @@
+*{
+	padding: 0px;
+}
+
+header{
+    background-color: lightgrey; 
+    border-radius: 10px;
+    border: solid 2px black;
+    text-align: center;
+    font-weight: 800; 
+    font-size: 18px;
+    padding: 10px;
+}
+header nav{
+    float : right;
+    margin: -15px 10px 40px 0px;
+
+}
+.columns{
+    background-color: buttonface;
+    border : 10px ridge gray;
+    display: flex;
+    margin-bottom: 1em;
+    font-weight: 700;
+    
+    }
+
+.columns > div{
+    text-align: center;
+    border : 5px ridge lightgray;
+    flex: 1;
+}
+
+.columns > div:nth-of-type(2), 
+.columns > div:nth-of-type(3) {
+    flex : 2;
+}
+
+nav li{
+    display: inline; 
+    font-size: 20px;
+    font-weight: 700;
+    
+    }
+a{
+    color: green;
+    font-weight: 900;
+    background-color: cornsilk;
+    border: 2px solid lightgray;
+    border-radius: 3px;
+}
+body{
+    width: 989 px;
+    margin : 0 auto;
+    background-color: aliceblue;
+    padding: 5px;
+    text-align: left;
+}
+#img{
+	position: absolute;
+	width: 340px;
+}
+#cssimg{
+	margin-left : 25em;
+	width: 200px;
+	position: absolute;
+}
+section{
+	margin-top: 7em;
+}
+
+#tableid{
+    cursor: no-drop;    
+}
+
+th ,td{
+    border: solid 1px black;
+}
+
+th
+{
+    background-color: lightgray;
+}
+
+button[type="button"]{
+	padding : 5px;
+	color: white;
+	background-color: black;
+}
+
+footer{
+	bottom: 10px;
+	position: absolute;
+}
