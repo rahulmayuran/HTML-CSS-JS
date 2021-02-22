@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+</head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="CSS/aboutStyle.css">
+
+<div id="containerid">
+<body>
+    <header>
+        <h1 id="return" >Thanks for logging!</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Go back</a>
+    </nav>
+
+    <section id="sectionid" class="bordered">
+
+        <table class="table", id=tableid>
+            <thead>
+                <tr>
+                    <th>Experience</th>
+                    <th>Knowledge</th>
+                    <th>Memory</th>
+                    <th>Thought</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <!-- <td scope="row"></td> -->
+                    <td>Raw data from external world</td>
+                    <td>Parsing raw data from world</td>
+                    <td>Stores both raw and parsed data</td>
+                    <td>Gets projected from the memory</td>
+
+                    
+                </tr>
+                <tr>
+                    <!-- <td scope="row"></td> -->
+                    <td>Gathered from 5 senses</td>
+                    <td>Converting into abstract concept, idea</td>
+                    <td>Makes layers of storing knowledge</td>
+                    <td>Has a loop which starts and stops itself</td>
+            </tbody>
+        </table> 
+
+        <p id = "pid" class="bordered">
+            Observe what you are doing.
+        </p>
+
+        <label for="checkid">Are you aware?</label>
+        <input type="checkbox" name="check" id="checkid" checked/><br/>
+
+        <label for="selectid">Your mind is </label>
+        <select name="select" multiple="multiid" id="selectid">
+            <optgroup label="Activities">
+                <option disabled>-Select-</option>
+                <option value="Thinking">Thinking</option>
+                <option value="Daydreaming">Daydreaming</option>
+                <option value="fantasizing">Fantasizing</option>
+                <option value="Planning">Planning</option>
+                <option value="Recalling">Recalling</option>
+                <option value="Worrying">Worrying</option>
+                <option value="Lamenting">Lamenting</option>
+            </optgroup>
+        </select>
+    </section>    
+
+    <div id="mindid" class="bordered" >
+        <!-- onmouseover="over(this)" onmouseout="out(this)" -->
+            <button id="buttonid" class="buttonformat" value="Hide">Hide</button>
+                <div id = "mind2id">Want to know about the nature of your mind?</div>
+                <div id = "mind3id">It is so, because your mind is</div>
+                <div id = "selectcopy"></div><br/>
+                <button id="showTable" class="buttonformat" value="Show">Show Table</button>
+         <!-- <textarea rows="10" cols="20" id="areacopy"></textarea>--> 
+    </div>
+    <div id="outerbox" >
+        <div id="innerbox">
+            <p style="position: fixed;" id="loader"></p>
+         </div>
+    </div>
+    
+
+    
+            
+    <footer>
+        &circledR; Reserved, &COPY; enabled 2020
+    </footer>
+
+    <script type="text/javascript" src="JS/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="JS/about.js"></script>
+</body>
+</div>
+
+</html>
